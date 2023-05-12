@@ -1,0 +1,93 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card{
+    width: 295;
+    margin: 0 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 7px;
+    z-index: 100;
+    margin-top: 3em;
+}
+  
+.card a:hover {
+    background-color: #333;
+}
+.card h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.card p {
+    font-size: 14px;
+    margin-bottom: 18px;
+    color: #333;
+}
+.card img {
+  max-width: 80%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card a {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  color: #3a792c; /* Cambia el color del texto según tus necesidades */
+  background-color: #d1d1d1(0, 0, 0, 0.8); /* Cambia el color de fondo del texto según tus necesidades */
+  padding: 10px;
+}
+.card button {
+    background-color: #3a792c; 
+    border: none;
+    border-radius: 20px; 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+    color: #fff; 
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 8px;
+    padding: 4px 12px; 
+    transition: all 0.3s ease-in-out; 
+  }
+
+.Button :hover{
+  background-color:black ;
+}
+.status{
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  background-color: rgb(68, 255, 0);
+  font-size: 20px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}
+.favorite{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row-reverse;
+  left: 0;
+}
+.button_2
+{
+    position: absolute;
+    right: 0;
+} 
